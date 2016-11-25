@@ -1,0 +1,1 @@
+lastPressed = -1;

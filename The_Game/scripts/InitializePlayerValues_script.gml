@@ -1,0 +1,26 @@
+//Gravity .5, friction 1, max speed 3, jump power 10, speed up amount 1.5, in air jump count 1, jump buffer 5, off edge buffer 30
+vSpeed = 0;
+hSpeed = 0;
+grav = argument0;
+fric = argument1;
+onGround = false;
+inAirJumps = 0;
+maxInAirJumps = argument5;
+jumpPower = argument3;
+speedUp = argument4;
+maxSpeed = argument2;
+l = false;
+r = false;
+extraJumpBuffer = argument6;
+airSpeedUp = speedUp / 2;
+fallOffEdgeTimer = -1;
+fallOffEdgeTimerMax = argument7;
+myRot = 0;
+myScaleX = 1;
+myScaleY = 1;
+myCol = c_white;
+myRotSpeed = 0;
+dodgeSpeed = 10;
+lastPressed = 1;
+dodging = false;
+dodgeTimer = -1;
